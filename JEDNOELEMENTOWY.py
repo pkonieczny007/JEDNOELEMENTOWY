@@ -16,7 +16,7 @@ missing_drawings = []
 # Przejdź przez każdy wiersz w pliku Excel i zbierz uwagi dla każdego rysunku
 notes_dict = {}
 for index, row in df.iterrows():
-    rysunek_base = row['Rysunek']
+    rysunek_base = str(row['Rysunek'])
     uwagi = str(row['UWAGI'])
     anz = str(row['Anz.'])
     nazwa = str(row['NAZWA'])
