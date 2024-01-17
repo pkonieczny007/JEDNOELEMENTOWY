@@ -8,7 +8,7 @@ excel_file = 'nazwa_pliku.xlsx'  # Zastąp odpowiednią nazwą pliku
 df = pd.read_excel(excel_file)
 
 # Folder zawierający obrazy TIFF
-images_folder = os.path.join(os.getcwd(), 'Rysunki')
+images_folder = os.path.join(os.getcwd(), 'Rysunki_tif')
 
 # Lista do przechowywania brakujących rysunków
 missing_drawings = []
